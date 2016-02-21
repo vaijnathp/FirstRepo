@@ -12,7 +12,11 @@ public class HelloWorld {
 		System.out.print(message);
 	}
 	public void println(){
-		System.out.print(message);
+		System.out.println(message);
+	}
+	
+	public void println(){
+		System.out.print("*******"+message+"*******");
 	}
 
 }
